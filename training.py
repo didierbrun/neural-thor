@@ -42,7 +42,7 @@ def train_set():
         iy = float(random.randrange(HEIGHT) / WIDTH)
 
         #
-        # Force change to get sx=ix or sy=iy scenarios
+        # Force chance to get sx=ix or sy=iy scenarios
         #
         if random.randrange(3) == 1:
             sx = ix
